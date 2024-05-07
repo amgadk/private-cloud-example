@@ -61,8 +61,8 @@ The diagram below shows that the ATD lab topology has two data centers. We will 
     ansible-galaxy collection install arista.avd:==4.4.0
     export ARISTA_AVD_DIR=$(ansible-galaxy collection list arista.avd --format yaml | head -1 | cut -d: -f1)
     pip3 install -r ${ARISTA_AVD_DIR}/arista/avd/requirements.txt
-    git clone https://github.com/arista-netdevops-community/atd-avd.git
-    cd atd-avd
+    git clone https://github.com/amgadk/private-cloud-example.git
+    cd private-cloud-example
     ```
 
 3. Run the playbook to prepare CloudVision for AVD
