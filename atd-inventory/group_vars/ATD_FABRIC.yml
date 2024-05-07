@@ -99,6 +99,13 @@ l3leaf:
           uplink_switch_interfaces: [Ethernet5, Ethernet5]
     - group: pod3
       bgp_as: 65103
+      evpn_gateway:
+      # Specific BGP EVPN Gateway functionality for route types 2 (MAC-IP), 3 (IMET) and 5 (IP-PREFIX) can be enabled separately as needed. 
+        evpn_l2:
+          enabled: true
+        evpn_l3:
+          enabled: true
+          inter_domain: true
       nodes:
         - name: s1-brdr1
           id: 5
