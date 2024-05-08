@@ -30,6 +30,8 @@ The diagram below shows that the ATD lab topology has two data centers. We will 
 | s1-leaf2  |192.168.0.13 |
 | s1-leaf3  |192.168.0.14 |
 | s1-leaf4  |192.168.0.15 |
+| s1-brdr1  |192.168.0.100 |
+| s1-brdr2  |192.168.0.101 |
 | s1-host1  |192.168.0.16 |
 | s1-host2  |192.168.0.17 |
 
