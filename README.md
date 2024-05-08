@@ -17,7 +17,7 @@ To access an ATD topology, please get in touch with your Arista representative.
 The diagram below shows that the ATD lab topology has two data centers. We will only leverage DC1 in this example.
 
 <p align="center">
-  <img src="docs/imgs/atd-topo.png" alt="ATD Lab Topology" width="600"/>
+  <img src="docs/imgs/atd-topo2.png" alt="ATD Lab Topology" width="600"/>
 </p>
 
 ## ATD topology device list
