@@ -20,7 +20,13 @@ The diagram below shows that the ATD lab topology has two data centers. We will 
   <img src="docs/imgs/atd-topo2.png" alt="ATD Lab Topology" width="600"/>
 </p>
 
-## ATD topology device list
+The Private Cloud Topology we are building with these devices will look like this:
+
+<p align="center">
+  <img src="docs/imgs/atd-topo3.png" alt="Private Cloud Lab Topology" width="600"/>
+</p>
+
+## Lab topology device list
 
 | Device | IP Address |
 | ------ | ------------ |
@@ -32,6 +38,8 @@ The diagram below shows that the ATD lab topology has two data centers. We will 
 | s1-leaf4  |192.168.0.15 |
 | s1-brdr1  |192.168.0.100 |
 | s1-brdr2  |192.168.0.101 |
+| s1-core1  |192.168.0.102 |
+| s1-core2  |192.168.0.103 |
 | s1-host1  |192.168.0.16 |
 | s1-host2  |192.168.0.17 |
 
