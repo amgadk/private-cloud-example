@@ -23,7 +23,7 @@ The diagram below shows that the ATD lab topology has two data centers. We will 
 The Private Cloud Topology we are building with these devices will look like this:
 
 <p align="center">
-  <img src="docs/imgs/atd-topo3.png" alt="Private Cloud Lab Topology" width="600"/>
+  <img src="docs/imgs/atd-topo4.png" alt="Private Cloud Lab Topology" width="600"/>
 </p>
 
 ## Lab topology device list
