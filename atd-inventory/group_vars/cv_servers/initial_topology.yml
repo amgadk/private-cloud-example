@@ -24,6 +24,14 @@ CVP_DEVICES_INIT:
     parentContainerName: STAGING
     configlets:
       - BASE_s1-leaf4
+  - fqdn: s1-brdr1
+    parentContainerName: STAGING
+    configlets:
+      - BASE_s1-brdr1
+  - fqdn: s1-brdr2
+    parentContainerName: STAGING
+    configlets:
+      - BASE_s1-brdr2
 
 CVP_CONTAINERS_INIT:
   STAGING:
